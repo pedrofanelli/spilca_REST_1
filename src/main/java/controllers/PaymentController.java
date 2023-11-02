@@ -24,7 +24,7 @@ public class PaymentController {
 	/*
 	 * We are returning a Payment object
 	 */
-	@PostMapping("/payment")
+	@PostMapping("/apipayment")
 	public ResponseEntity<Payment> createPayment(
 			@RequestHeader String requestId,
 			@RequestBody Payment payment) {
